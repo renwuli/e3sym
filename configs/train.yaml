@@ -1,0 +1,38 @@
+# model
+mlps: [16, 64]
+ks: [64, 64]
+radius: [0.15, 0.2]
+thre: 0.05
+nsample: 1024
+min_cluster_size: 72
+rotations: 8
+
+# dataset
+batch_size: 32
+num_workers: 16
+
+# optim
+learning_rate: 0.001
+
+# logger
+save_dir: log
+name: 'train'
+
+# seed
+seed: 3407
+
+# train
+train_epochs: 100
+eval_epochs: 5
+save_epochs: 5
+reset_dataset_each_epoch: false
+ckpt_path: null
+
+
+# dataset
+shapenet_root: './dataset/ShapeNetCore.v2/'
+split_root: './data_split'
+eval_root: './dataset/test_rot'
+npoints: 512
+eval_point_root: './dataset'
+cat: 'all'

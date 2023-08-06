@@ -1,0 +1,14 @@
+easydict==1.10
+functorch==2.0.0
+matplotlib==3.5.3
+numba==0.56.4
+numpy==1.21.6
+open3d==0.16.0
+opencv_python==4.6.0.66
+progressbar33==2.4
+pytorch3d==0.7.1
+pyvista==0.37.0
+PyYAML==6.0
+scikit_learn==1.0.2
+torch==1.12.1
+tqdm==4.64.1
