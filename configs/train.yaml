@@ -8,7 +8,7 @@ min_cluster_size: 72
 rotations: 8
 
 # dataset
-batch_size: 32
+batch_size: 16
 num_workers: 16
 
 # optim
@@ -32,7 +32,7 @@ ckpt_path: null
 # dataset
 shapenet_root: './dataset/ShapeNetCore.v2/'
 split_root: './data_split'
-eval_root: './dataset/test_rot'
+eval_root: './dataset/test'
 npoints: 512
 eval_point_root: './dataset'
 cat: 'all'
